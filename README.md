@@ -3,7 +3,7 @@ Testing GitHub Pages deploy with React.
 
 ## Main steps
 1. Create repository
-2. Create React app (with yarn + TS)
+2. Create React app (with TypeScript)
 ```
 npx create-react-app my-app --template typescript
 
@@ -16,7 +16,7 @@ yarn create react-app my-app --template typescript
 ```
 npm install gh-pages
 
-#or
+# or
 
 yarn add gh-pages
 ```
@@ -29,7 +29,7 @@ yarn add gh-pages
   }
 }
 ```
-6. Add homepage URL (GitHub.io)
+6. Add homepage URL (GitHub.io) to ``package.json``
 ```json
 {
   "homepage": "https://user.github.io/my-app"
