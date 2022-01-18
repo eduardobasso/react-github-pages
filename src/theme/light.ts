@@ -21,6 +21,15 @@ const lightTheme: ThemeOptions = {
       'Montserrat',
       'sans-serif'
     ].join(',')
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        sizeLarge: {
+          padding: '14px 28px'
+        }
+      }
+    }
   }
 };
 
