@@ -7,7 +7,7 @@ const lightTheme: ThemeOptions = {
       main: '#61dafb',
       light: '#9affff',
       dark: '#10a8c8',
-      contrastText: '#282c34'
+      contrastText: '#010101'
     },
     text: {
       primary: '#fff'
